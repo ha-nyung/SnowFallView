@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SnowFallView_Example', :exclusive => true do
+  pod "SnowFallView", :path => "../"
+end
+
+target 'SnowFallView_Tests', :exclusive => true do
+  pod "SnowFallView", :path => "../"
+
+  
+end

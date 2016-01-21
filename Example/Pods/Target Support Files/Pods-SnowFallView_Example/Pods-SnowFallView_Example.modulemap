@@ -1,0 +1,6 @@
+framework module Pods_SnowFallView_Example {
+  umbrella header "Pods-SnowFallView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

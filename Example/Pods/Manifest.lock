@@ -1,0 +1,14 @@
+PODS:
+  - SnowFallView (0.1.0)
+
+DEPENDENCIES:
+  - SnowFallView (from `../`)
+
+EXTERNAL SOURCES:
+  SnowFallView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnowFallView: 35298d672135bef4a026940237f75ffbc79c7cd8
+
+COCOAPODS: 0.39.0

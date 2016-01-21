@@ -1,0 +1,6 @@
+framework module Pods_SnowFallView_Tests {
+  umbrella header "Pods-SnowFallView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

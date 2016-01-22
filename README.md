@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/SnowFallView.svg?style=flat)](http://cocoapods.org/pods/SnowFallView)
 [![Platform](https://img.shields.io/cocoapods/p/SnowFallView.svg?style=flat)](http://cocoapods.org/pods/SnowFallView)
 
+![SnowFall](https://cloud.githubusercontent.com/assets/591914/12500665/4af8040c-c0f0-11e5-8902-dbbfbe071a1c.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

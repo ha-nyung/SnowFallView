@@ -66,7 +66,7 @@
     UIImage *image = [UIImage imageNamed:@"snowflake" inBundle:bundle compatibleWithTraitCollection:nil];
     
     snowFlake.contents = (__bridge_transfer id)image.CGImage;
-    snowFlake.contentsScale = [UIScreen mainScreen].scale;
+    snowFlake.scale = snowFlake.scale / [UIScreen mainScreen].scale;
     snowFlake.name = @"snowflake";
     snowFlake.velocity = 60;
     snowFlake.emissionLongitude = M_PI;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SnowFallView"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "UIView subclass where beautiful snow is falling"
 
   s.homepage         = "https://github.com/minorblend/SnowFallView"

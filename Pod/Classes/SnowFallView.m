@@ -28,8 +28,9 @@
 }
 
 - (void)start {
+    int depth = 0;
     for (CAEmitterLayer *emitter in self.layer.sublayers) {
-        emitter.birthRate = 10;
+        emitter.birthRate = 15 + 5 * depth++;
     }
 }
 
@@ -67,18 +68,18 @@
     snowFlake.contents = (__bridge_transfer id)image.CGImage;
     snowFlake.contentsScale = [UIScreen mainScreen].scale;
     snowFlake.name = @"snowflake";
-    snowFlake.velocity = 80;
+    snowFlake.velocity = 60;
     snowFlake.emissionLongitude = M_PI;
-    snowFlake.emissionRange = M_PI_4 / 2.0;
-    snowFlake.spin = 0.5;
+    snowFlake.emissionRange = M_PI_4 / 4.0;
+    snowFlake.spin = 0.7;
     
     for (int i = 0; i < 3; i++) {
         CAEmitterLayer *emitter = [CAEmitterLayer layer];
         emitter.emitterPosition = CGPointMake(self.center.x, 0);
         emitter.emitterShape = kCAEmitterLayerLine;
-        emitter.emitterSize = CGSizeMake(CGRectGetWidth(self.frame), 1);
+        emitter.emitterSize = CGSizeMake(CGRectGetWidth(self.bounds) * 1.5, 1);
         
-        float depth = i / 4.0;
+        float depth = i / 3.0;
         emitter.opacity = 1.0 - depth;
         emitter.scale = 1.0 - depth;
         emitter.velocity = 1.0 - depth;
@@ -91,8 +92,9 @@
 }
 
 - (void)setUp {
-    self.density = 0.7;
+    self.density = 1;
     self.backgroundColor = [UIColor clearColor];
     self.layer.masksToBounds = YES;
 }
+
 @end

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '70FEA32B9522E004F8A5E85D'
+               BlueprintIdentifier = 'A61AB12193C627AA46083EBB'
                BlueprintName = 'SnowFallView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SnowFallView.framework'>

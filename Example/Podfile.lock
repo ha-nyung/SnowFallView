@@ -1,5 +1,5 @@
 PODS:
-  - SnowFallView (0.2.0)
+  - SnowFallView (0.3.0)
 
 DEPENDENCIES:
   - SnowFallView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SnowFallView: a0f0fa7de040d983ef05d414caa2febdd2fe9dc8
+  SnowFallView: 72977617cceca1db95190d2e5734641ba83a813c
 
 COCOAPODS: 0.39.0

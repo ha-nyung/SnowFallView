@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SnowFallView"
-  s.version          = "0.2.1"
+  s.version          = "0.3.0"
   s.summary          = "UIView subclass where beautiful snow is falling"
 
   s.homepage         = "https://github.com/minorblend/SnowFallView"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/minorblend/SnowFallView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/minorblend'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '8.4'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

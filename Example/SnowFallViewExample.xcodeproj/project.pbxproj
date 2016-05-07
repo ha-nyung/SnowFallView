@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A273E01A1CDCDC71009CDE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273E0191CDCDC71009CDE0A /* AppDelegate.swift */; };
+		A273E01C1CDCDC71009CDE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273E01B1CDCDC71009CDE0A /* ViewController.swift */; };
+		A29178876030001775AF8270 /* Pods_SnowFallViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F939A47272738307D1ACADF /* Pods_SnowFallViewExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F939A47272738307D1ACADF /* Pods_SnowFallViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowFallViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AE80484E6798684A63A3EB /* Pods-SnowFallViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowFallViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		98CEF61672A3B952128BFF3B /* Pods-SnowFallViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowFallViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A273E0161CDCDC71009CDE0A /* SnowFallViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowFallViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A273E0191CDCDC71009CDE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A273E01B1CDCDC71009CDE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A273E0251CDCDC71009CDE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A273E0131CDCDC71009CDE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29178876030001775AF8270 /* Pods_SnowFallViewExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A273E00D1CDCDC71009CDE0A = {
+			isa = PBXGroup;
+			children = (
+				A273E0181CDCDC71009CDE0A /* SnowFallViewExample */,
+				A273E0171CDCDC71009CDE0A /* Products */,
+				CAC87BB35F2CEC779E6D19FB /* Pods */,
+				B154C7033B5B5791BBD398D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A273E0171CDCDC71009CDE0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A273E0161CDCDC71009CDE0A /* SnowFallViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A273E0181CDCDC71009CDE0A /* SnowFallViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				A273E0191CDCDC71009CDE0A /* AppDelegate.swift */,
+				A273E01B1CDCDC71009CDE0A /* ViewController.swift */,
+				A273E0251CDCDC71009CDE0A /* Info.plist */,
+			);
+			path = SnowFallViewExample;
+			sourceTree = "<group>";
+		};
+		B154C7033B5B5791BBD398D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F939A47272738307D1ACADF /* Pods_SnowFallViewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAC87BB35F2CEC779E6D19FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98CEF61672A3B952128BFF3B /* Pods-SnowFallViewExample.debug.xcconfig */,
+				44AE80484E6798684A63A3EB /* Pods-SnowFallViewExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A273E0151CDCDC71009CDE0A /* SnowFallViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A273E0281CDCDC71009CDE0A /* Build configuration list for PBXNativeTarget "SnowFallViewExample" */;
+			buildPhases = (
+				78215D741F4BE0D9227E8BC2 /* Check Pods Manifest.lock */,
+				A273E0121CDCDC71009CDE0A /* Sources */,
+				A273E0131CDCDC71009CDE0A /* Frameworks */,
+				A273E0141CDCDC71009CDE0A /* Resources */,
+				76FBA44A2A9D4AC619C2F7D0 /* Embed Pods Frameworks */,
+				782B5EFBA77A289BEA85C10E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowFallViewExample;
+			productName = SnowFallViewExample;
+			productReference = A273E0161CDCDC71009CDE0A /* SnowFallViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A273E00E1CDCDC71009CDE0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ha Nyung Chung";
+				TargetAttributes = {
+					A273E0151CDCDC71009CDE0A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A273E0111CDCDC71009CDE0A /* Build configuration list for PBXProject "SnowFallViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A273E00D1CDCDC71009CDE0A;
+			productRefGroup = A273E0171CDCDC71009CDE0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A273E0151CDCDC71009CDE0A /* SnowFallViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A273E0141CDCDC71009CDE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76FBA44A2A9D4AC619C2F7D0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78215D741F4BE0D9227E8BC2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		782B5EFBA77A289BEA85C10E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A273E0121CDCDC71009CDE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A273E01C1CDCDC71009CDE0A /* ViewController.swift in Sources */,
+				A273E01A1CDCDC71009CDE0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A273E0261CDCDC71009CDE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A273E0271CDCDC71009CDE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A273E0291CDCDC71009CDE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CEF61672A3B952128BFF3B /* Pods-SnowFallViewExample.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SnowFallViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minorblend.SnowFallViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A273E02A1CDCDC71009CDE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AE80484E6798684A63A3EB /* Pods-SnowFallViewExample.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SnowFallViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minorblend.SnowFallViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A273E0111CDCDC71009CDE0A /* Build configuration list for PBXProject "SnowFallViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A273E0261CDCDC71009CDE0A /* Debug */,
+				A273E0271CDCDC71009CDE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A273E0281CDCDC71009CDE0A /* Build configuration list for PBXNativeTarget "SnowFallViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A273E0291CDCDC71009CDE0A /* Debug */,
+				A273E02A1CDCDC71009CDE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A273E00E1CDCDC71009CDE0A /* Project object */;
+}
